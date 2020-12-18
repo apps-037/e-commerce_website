@@ -1,0 +1,257 @@
+
+#t1{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    width: 40%;
+    height: fit-content;
+}
+
+
+.t11{
+    background-color: white;
+    box-shadow: 2px 2px 20px 1px #888888;
+    border-radius: 20px;
+    width: 90%;
+    height: 90%;
+    padding:15px;
+
+}
+.t12{
+    
+    background-color: white;
+    box-shadow: 2px 2px 20px 1px #888888;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+.t111{
+    border-radius: 20px 20px 0 0;
+    background-color: #665c49;
+    width: 100%;
+    height: 12%;
+}
+.t112{
+    border-radius: 0px 0px 0 0;
+    background-color: #bead8e;
+    width: 100%;
+    height: 15%;
+}
+#t2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 40%;
+    height: 30%;
+}
+#t3{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    width: 40%;
+    height: 65%;
+}
+#t4{
+    position: absolute;
+    top: 92%;
+    left: 8%;
+    width: 40%;
+    height: 45%;
+}
+#t5{
+    position: absolute;
+    top: 142%;
+    left: 8%;
+    width: 82%;
+    height: fit-content;
+}
+
+#t6{
+    position: absolute;
+    top: 180%;
+    left: 8%;
+    width: 25%;
+    height: 100%;
+}
+#t7{
+    position: absolute;
+    top: 180%;
+    left: 35%;
+    width: 25%;
+    height: 100%;
+}
+#t8{
+    position: absolute;
+    top: 180%;
+    left: 62%;
+    width: 25%;
+    height: 100%;
+}
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {font-family: "Lato", sans-serif;
+
+    background-image: url('bg2.png');
+
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+    }
+
+    
+ 
+
+    
+    
+    a.apps:hover{
+        opacity:0.6;
+    } 
+    
+    #mySidenav #form {
+        position: fixed;
+        right: -20px;
+        transition: 0.3s;
+        padding: 15px;
+        height: 420px;
+        width: 100px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+      }
+      
+      #mySidenav #form:hover {
+      
+        right: 0;
+        width: 20%;
+      }
+      
+      div#form {       
+             top: 140px;
+        background-color: #bead8e;
+          }
+          input {
+            width: 80%;
+            padding:8px;
+            margin:8px;
+            border-radius:15px;
+            border:#fff;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+          }
+          .button {
+            background-color: #5da4e9; 
+            border-radius: 20px;
+            border:#5da4e9;
+            color: black;
+            margin-top:10px;
+            margin-left:50px;
+            width:55%;
+            padding: 8px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+          }
+
+  
+
+    div#web2 {
+        position: absolute;
+        top: 30%; left: 54%; width: 130px; height: 100px;
+       
+    }
+    img#web2d {
+        position: absolute;
+        width: 240%;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+    }
+    img#web22d {
+        position: absolute;
+        width: 220%;
+        top: -210%; left: -30%; 
+       
+    }
+    img#web22d {
+        position: absolute;
+        width: 170%;
+        top: -150%; left: -30%; 
+       
+    }
+
+    div#wr1 {
+        position: absolute;
+        top: 25%; left: 16%; width: 40%; height: 100px;
+       
+    }
+    .but2 {
+        background-color: #5da4e9; 
+        border-radius: 20px;
+        border:#000;
+        color: black;
+        margin-top:10px;
+        margin-left:50px;
+        width:25%;
+        padding: 8px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
+
+      div#for2 {
+        position: absolute;
+        top: 70%; left: 20%; width: 60%; height: 100px;
+       
+    }
+      .for2{
+          width: 100%;
+          max-height: 140px;
+          border: 1px solid #f2eee8;
+          display: flex;
+          overflow-x: auto;
+          overflow-y: none;
+      }
+      .for2::-webkit-scrollbar{
+          width:0;
+      }
+      .for2 .item { 
+          border: 15px solid #f2eee8;
+       max-width: 20%;
+       border-radius: 25px;
+       height: 120px;
+       line-height: 110px;
+       text-align: center;
+       background-color: #f2eee8;
+    }
+    div#buto {
+        position: absolute;
+        top: 25%; left: 0%; width: 60%; height: 100px;
+       
+    }
+    .buto {
+        background-color: #bead8e; 
+        border-radius: 20px;
+        border:#000;
+        color: black;
+        margin-top:10px;
+        margin-left:30px;
+        width:15%;
+        padding: 8px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        cursor: pointer;
+        
+      }
+    
+

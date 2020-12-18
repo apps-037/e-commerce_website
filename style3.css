@@ -1,0 +1,214 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {font-family: "Lato", sans-serif;
+
+    background-image: url('bg2.png');
+
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+    }
+
+
+    
+    a.apps:hover{
+        opacity:0.6;
+    } 
+    
+    div#form {
+        position: absolute;
+        top: 30%; left: 75%; 
+       width:20%;  
+    }
+    input {
+      width: 150%;
+      padding:8px;
+      margin:8px;
+      border-radius:15px;
+      align: right;
+      border:#fff;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    .button {
+      background-color: #5da4e9; 
+      border-radius: 20px;
+      border:#5da4e9;
+      color: black;
+      margin-top:10px;
+      margin-left:35px;
+      width:75%;
+      padding: 8px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+ .login{
+        position: fixed;
+		text-decoration:none;
+        top: 4%; left: 78%; width: 70px; height: 20px;
+       
+    }
+    div#shop{
+        position: fixed;
+        top: 1%; left: 95%; width: 130px; height: 100px;z-index:1;
+       
+    }
+    img#shopd {
+        position: absolute;
+        width: 34%;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+    }
+
+    div#phone{
+        position: fixed;
+        top: 1.8%; left: 92.5%; width: 30px; height: 100px;z-index:1;
+       
+    }
+    img#phoned {
+        position: absolute;
+        width: 79%;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+    }
+
+    div#detail{
+        position: fixed;
+        top: 1.5%; left: 89.5%; width: 30px; height: 100px;z-index:1;
+       
+    }
+    img#detaild {
+        position: absolute;
+        width: 70%;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+    }
+
+
+
+
+
+
+
+    div#wr1 {
+        position: absolute;
+        top: 120%; left: 40%; width: 40%; height: 100px;
+       
+    }
+    .but2 {
+        background-color: #5da4e9; 
+        border-radius: 20px;
+        border:#000;
+        color: black;
+        margin-top:10px;
+        margin-left:50px;
+        width:25%;
+        padding: 8px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
+
+      div#for2 {
+        position: absolute;
+        top: 180%; left: 5%; width: 60%; height: 100px;
+       
+    }
+      .for2{
+          width: 100%;
+          max-height: 140px;
+          border: 1px solid #fff;
+          display: flex;
+          overflow-x: auto;
+          overflow-y: none;
+      }
+      .for2::-webkit-scrollbar{
+          width:0;
+      }
+      .for2 .item { 
+          border: 15px solid white;
+       max-width: 20%;
+       border-radius: 25px;
+       height: 120px;
+       line-height: 110px;
+       text-align: center;
+       background-color: #bead8e;
+    }
+
+
+
+  
+    div#wr2 {
+        position: absolute;
+        top: 230%; left: 40%; width: 40%; height: 100px;
+       
+    }
+    div#for3 {
+        position: absolute;
+        top: 290%; left: 5%; width: 60%; height: 100px;   
+    }
+
+    div#digi2 {
+        position: absolute;
+        top: 335%; left: 5%; height: 100px;
+       
+    }
+    img#digi2d {
+        position: relative;
+        width: 70%;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+    }
+    div#wr3 {
+        position: absolute;
+        top: 330%; left: 40%; width: 40%; height: 100px;
+       
+    }
+    div#for4 {
+        position: absolute;
+        top: 390%; left: 5%; width: 60%; height: 100px;   
+    }
+
+    div#write2 {
+        position: absolute;
+        top: 435%; left: 5%;  height: 100px;
+       
+    }
+    img#write2d {
+        position: relative;
+        width: 70%;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+    }
+    div#wr4 {
+        position: absolute;
+        top: 430%; left: 40%; width: 40%; height: 100px;
+       
+    }
+    div#for5 {
+        position: absolute;
+        top: 490%; left: 5%; width: 60%; height: 100px;   
+    }
+
+    div#design2 {
+        position: absolute;
+        top: 545%; left: 5%;  height: 100px;
+       
+    }
+    img#design2d {
+        position: relative;
+        width: 70%;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+    }
+    div#wr5 {
+        position: absolute;
+        top: 540%; left: 40%; width: 40%; height: 100px;
+       
+    }
+    div#for6 {
+        position: absolute;
+        top: 600%; left: 5%; width: 60%; height: 100px;   
+    }

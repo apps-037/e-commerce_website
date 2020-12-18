@@ -1,0 +1,283 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {font-family: "Lato", sans-serif;
+
+    background-image: url('bg4.png');
+
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+    }
+
+    div#tabs {
+        position: fixed;
+        top: 0%; left: 17%;   
+    }
+    
+    a.tab {
+        background-color: #fff;
+        color: black;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+       
+    }
+    
+    a.tab:hover {
+      background-color: #bead8e ;
+      color: #fff;
+    }
+        div#app {
+        position: relative;
+        top: 85px; left: 180px; width: 120px; height: 100px;
+       
+    }
+    img#appd {
+        position: absolute;
+        width: 230%;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+    }
+    div#web {
+        position: absolute;
+        top: 30%; left: 28%; width: 130px; height: 100px;
+       
+    }
+    img#webd {
+        position: absolute;
+        width: 230%;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+    }
+    div#digi {
+        position: absolute;
+        top: 14%; left: 50%; width: 130px; height: 100px;
+       
+    }
+    img#digid {
+        position: absolute;
+        width: 230%;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+    }
+    div#write {
+        position: absolute;
+        top: 60%; left: 37%; width: 130px; height: 100px;
+       
+    }
+    img#writed {
+        position: absolute;
+        width: 230%;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+    }
+    div#design {
+        position: absolute;
+        top: 67%; left: 9%; width: 130px; height: 100px;
+       
+    }
+    img#designd {
+        position: absolute;
+        width: 230%;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+    }
+    div#st2 {
+        position: absolute;
+        top: 79%; left: 24%; width: 130px; height: 100px;
+       
+    }
+    img#st2d {
+        position: absolute;
+        width: 170%;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+    }
+    div#st3 {
+        position: absolute;
+        top: 60%; left: 25%; width: 130px; height: 100px;
+       
+    }
+    img#st3d {
+        position: absolute;
+        width: 90%;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+    }
+    div#st1 {
+        position: absolute;
+        top: 36%; left: 28%; width: 130px; height: 100px;
+       
+    }
+    img#st1d {
+        position: absolute;
+        width: 90%;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+    }
+    div#st4 {
+        position: absolute;
+        top: 40%; left: 46%; width: 130px; height: 100px;
+       
+    }
+    img#st4d {
+        position: absolute;
+        width: 90%;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+    }
+    
+    
+    a.apps:hover{
+        opacity:0.6;
+    } 
+
+	#mySidenav a {
+  position: absolute;
+  right: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 200px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  right: 0;
+}
+
+#about {
+  top: 150px;
+  height:200px;
+  width:40%;
+  background-color: #bead8e;
+}
+      }
+      div#form {         
+             top: 140px;
+        background-color: #bead8e;
+          }
+          input {
+            width: 80%;
+            padding:8px;
+            margin:8px;
+            border-radius:15px;
+            border:#fff;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+          }
+          .button {
+            background-color: #5da4e9; 
+            border-radius: 20px;
+            border:#5da4e9;
+            color: black;
+            margin-top:10px;
+            margin-left:50px;
+            width:55%;
+            padding: 8px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+          }
+
+    div#shop{
+        position: fixed;
+        top: 1%; left: 95%; width: 130px; height: 100px;
+       
+    }
+    img#shopd {
+        position: absolute;
+        width: 34%;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+    }
+
+    div#phone{
+        position: fixed;
+        top: 1.8%; left: 92.5%; height: 100px;
+       
+    }
+    img#phoned {
+        position: absolute;
+        width: 79%;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+    }
+
+    div#detail{
+        position: fixed;
+        top: 1.5%; left: 89.5%;  height: 100px;
+       
+    }
+    img#detaild {
+        position: absolute;
+        width: 77%;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+    }
+
+   
+    img#web22d {
+        position: absolute;
+        width: 220%;
+        top: -210%; left: -30%; 
+       
+    }
+    img#web22d {
+        position: absolute;
+        width: 170%;
+        top: -150%; left: -30%; 
+       
+    }
+
+    div#wr1 {
+        position: absolute;
+        top: 25%; left: 16%; width: 40%; height: 100px;
+       
+    }
+    .but2 {
+        background-color: #5da4e9; 
+        border-radius: 20px;
+        border:#000;
+        color: black;
+        margin-top:10px;
+        margin-left:50px;
+        width:25%;
+        padding: 8px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
+
+
+      .for2 .item { 
+          border: 15px solid #f2eee8;
+       max-width: 20%;
+       border-radius: 25px;
+       height: 120px;
+       line-height: 110px;
+       text-align: center;
+       background-color: #f2eee8;
+    }
+    div#buto {
+        position: absolute;
+        top: 25%; left: 0%; width: 60%; height: 100px;
+       
+    }
+    .buto {
+        background-color: #bead8e; 
+        border-radius: 20px;
+        border:#000;
+        color: black;
+        margin-top:10px;
+        margin-left:30px;
+        width:15%;
+        padding: 8px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        cursor: pointer;
+        
+      }
+    
+
