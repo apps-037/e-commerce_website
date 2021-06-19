@@ -22,6 +22,9 @@ if(isset($_GET['type']) && $_GET['type']!=''){
 	}
 }
 
+
+
+
 $sql="select * from categories order by categories asc";
 $res=mysqli_query($con,$sql);
 ?>
